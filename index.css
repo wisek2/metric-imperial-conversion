@@ -1,0 +1,70 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+}
+
+.topHalf {
+    width: 550px;
+    height: 230px;
+    background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+}
+
+#title {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 38px;
+}
+
+#convertNumber-el {
+    font-size: 97.57px;
+    font-weight: 800;
+}
+
+.bottomHalf {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    background: #1F2937;
+    align-items: center;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#unitTitles {
+    font-weight: 600;
+    padding-bottom: 8px;
+}
+
+.lengthNums,
+.volumeNums,
+.massNums {
+    display: flex;
+    padding-bottom: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #D2D2D2;
+}
+
+#lengthMetImp-el,
+#volumeMetImp-el,
+#massMetImp-el {
+    padding-right: 5px;
+    border-right: 1px solid #D2D2D2;
+}
+
+#lengthImpMet-el,
+#volumeImpMet-el,
+#massImpMet-el {
+    padding-left: 5px;
+}
